@@ -1,5 +1,5 @@
 {
-  "name": "react-native-map-clustering",
+  "name": "react-native-map-clustering-flex",
   "version": "3.4.2",
   "description": "React Native Map Clustering both for Android and iOS",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/venits/react-native-map-clustering.git"
+    "url": "git+https://github.com/ddrr1337/react-native-map-clustering-flex.git"
   },
   "keywords": [
     "react-native",
@@ -20,12 +20,12 @@
     "map",
     "clustering"
   ],
-  "author": "Venits",
+  "author": "Agustin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/venits/react-native-map-clustering/issues"
+    "url": "https://github.com/ddrr1337/react-native-map-clustering-flex/issues"
   },
-  "homepage": "https://github.com/venits/react-native-map-clustering#readme",
+  "homepage": "https://github.com/ddrr1337/react-native-map-clustering-flex#readme",
   "dependencies": {
     "supercluster": "^7.1.0",
     "@mapbox/geo-viewport": "^0.4.1"
