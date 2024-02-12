@@ -25,7 +25,7 @@ const INITIAL_REGION = {
 };
 
 const App = () => (
-  <MapView initialRegion={INITIAL_REGION} style={{ flex: 1 }} notToCluster={['dontClusterMe']}>
+  <MapView initialRegion={INITIAL_REGION} style={{ flex: 1 }} notToCluster={['dontClusterMe','dontClusterMeToo']}>
     <Marker coordinate={{ latitude: 52.4, longitude: 18.7 }} />
     <Marker coordinate={{ latitude: 52.1, longitude: 18.4 }} />
     <Marker coordinate={{ latitude: 52.6, longitude: 18.3 }} />
@@ -35,7 +35,8 @@ const App = () => (
     <Marker coordinate={{ latitude: 52.2, longitude: 21 }} />
     <Marker coordinate={{ latitude: 52.4, longitude: 21 }} />
     <Marker coordinate={{ latitude: 51.8, longitude: 20 }} />
-    <Marker key={"dontClusterMe"} coordinate={{ latitude: 51.8, longitude: 20 }} />
+    <Marker key={"dontClusterMe"} coordinate={{ latitude: 51.9, longitude: 21.2 }} />
+    <Marker key={"dontClusterMeToo"} coordinate={{ latitude: 52.1, longitude: 21.4 }} />
   </MapView>
 );
 
