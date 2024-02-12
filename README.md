@@ -14,7 +14,7 @@ This modification allows you to pass a new prop `notToCluster` with keys of mark
 
 ```jsx
 import React from "react";
-import MapView from "react-native-map-clustering";
+import MapView from "react-native-map-clustering-flex";
 import { Marker } from "react-native-maps";
 
 const INITIAL_REGION = {
