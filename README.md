@@ -1,17 +1,18 @@
-﻿# React Native Map Clustering
+# React Native Map Clustering
 
-THIS IS JUST A MODIFICATION TO ALLOW PASS A NOT MARKER CLUSTER LIST
+**Note: This is a modification to allow passing a list of markers that should not be clustered.**
 
-This modification allows you to pass a new prop notToCluster whith keys of markers you dont want to cluster.
+This modification allows you to pass a new prop `notToCluster` with keys of markers you don't want to cluster.
 
 ## Props
 
-| Name                                        | Type                  | Default                                      | Note                                                                                                                                                                                                                            |
-| ------------------------------------------- | --------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **notToCluster**                            | Array                | []                                      | Pass the marker keys you dont want to cluster                                                                                                                                                              |
+| Name          | Type   | Default | Note                                                |
+|---------------|--------|---------|-----------------------------------------------------|
+| `notToCluster`| Array  | []      | Pass the marker keys you don't want to cluster      |
 
-## Full Example?
+## Full Example
 
+```jsx
 import React from "react";
 import MapView from "react-native-map-clustering";
 import { Marker } from "react-native-maps";
@@ -24,11 +25,7 @@ const INITIAL_REGION = {
 };
 
 const App = () => (
-  <MapView
-  initialRegion={INITIAL_REGION}
-  style={{ flex: 1 }}
-  notToCluster=['dontClusterMe']
-  >
+  <MapView initialRegion={INITIAL_REGION} style={{ flex: 1 }} notToCluster={['dontClusterMe']}>
     <Marker coordinate={{ latitude: 52.4, longitude: 18.7 }} />
     <Marker coordinate={{ latitude: 52.1, longitude: 18.4 }} />
     <Marker coordinate={{ latitude: 52.6, longitude: 18.3 }} />
@@ -38,16 +35,9 @@ const App = () => (
     <Marker coordinate={{ latitude: 52.2, longitude: 21 }} />
     <Marker coordinate={{ latitude: 52.4, longitude: 21 }} />
     <Marker coordinate={{ latitude: 51.8, longitude: 20 }} />
-
     <Marker key={"dontClusterMe"} coordinate={{ latitude: 51.8, longitude: 20 }} />
   </MapView>
 );
 
 export default App;
 
-### Support
-
-Feel free to create issues and pull requests. I will try to provide as much support as possible over GitHub. In case of questions or problems, contact me at:
-[tony@venits.com](tony@venits.com)
-
-### Happy Coding 💖🚀
