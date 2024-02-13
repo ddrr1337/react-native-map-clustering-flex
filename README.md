@@ -1,8 +1,8 @@
-# React Native Map Clustering
+# React Native Map Clustering Flex
 
 **Note: This is a modification to allow passing a list of markers that should not be clustered.**
 
-This modification allows you to pass a new prop `notToCluster` with keys of markers you don't want to cluster.
+This modification allows you to pass a new prop `notToCluster` with keys of markers you don't want to cluster. This won't prevent the Marker to show, but will prevent to be wrapped into a cluster.
 
 ## Props
 
