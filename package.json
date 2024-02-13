@@ -1,6 +1,6 @@
 {
   "name": "react-native-map-clustering-flex",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "description": "React Native Map Clustering both for Android and iOS",
   "types": "index.d.ts",
   "main": "index.js",
