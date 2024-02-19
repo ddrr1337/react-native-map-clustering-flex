@@ -6,6 +6,7 @@ This modification allows you to pass a new prop `notToCluster` with keys of mark
 
 ```bash
 npm install react-native-map-clustering-flex
+```
 
 ## Props
 
