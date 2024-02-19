@@ -4,6 +4,9 @@
 
 This modification allows you to pass a new prop `notToCluster` with keys of markers you don't want to cluster. This won't prevent the Marker to show, but will prevent to be wrapped into a cluster.
 
+```bash
+npm install react-native-map-clustering-flex
+
 ## Props
 
 | Name           | Type  | Default | Note                                           |
